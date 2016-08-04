@@ -42,19 +42,19 @@ int main(int argc, char *argv[])
     printf("another: %s\n", another); //another: wjjZed
     
     /*
-    *  //error: incompatible types when assigning to type ¡®char[3]¡¯ from type ¡®char *¡¯
+    *  //error: incompatible types when assigning to type ‘char[3]’ from type ‘char *’
     name2 = "wj";
     printf("change name2: %s\n", name2);    
     */
 
     /*
-    *  // error: expected expression before ¡®{¡¯ token
+    *  // error: expected expression before ‘{’ token
     name2[3] = {'w', 'x'};
     printf("change name2 with array way: %s\n", name2);    
     */
    
     /*
-    * //error: incompatible types when assigning to type ¡®char[3]¡¯ from type ¡®char *   
+    * //error: incompatible types when assigning to type ‘char[3]’ from type ‘char *   
     name2 = another;
     printf("change name2 with array way: %s\n", name2);
     */
