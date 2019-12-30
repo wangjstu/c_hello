@@ -4,4 +4,4 @@ all:ex23
 
 
 clear:
-	-rm -f ex23.o
+	-rm -f ex23
